@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: #111418;
+}
+
+.c {
+   color: #0866FF;
+   padding: 110px 0px 30px 450px;
+
+   font-size: 40px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+   
+}
+.p {
+    color:#FFFFFF;
+    font-size: 26px;
+    padding-left: 530px;
+   
+}
+
+.login_body{
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    align-items:center;
+    padding-top: 20px;
+}
+
+.login_body input {
+    height: 50px;
+    width: 320px;
+    background-color: #ffffff;
+    border-style: double;
+    border-radius: 8px;
+    border-width: 2px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    outline: none;
+}
+
+.input_login {
+    margin-bottom: 25px;
+}
+
+.btn {
+    height: 30px;
+    width: 120px;
+    color: #fff;
+    background-color: #A334EF;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0px 0px 100px;
+    cursor: pointer;
+}
+
+.conteiner{
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+header{
+    background-color:#ffffff;
+    width: 100%;
+}
+
+.logo{
+    color: #0866FF;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+    margin-right: 200px;
+}
+
+.sociais{
+    width: 30%;
+}
+
+.menu{
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu nav a{
+      color: #111418;
+      text-decoration: none;
+      padding-right: 30px;
+      font-size: 18px;
+      position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image:linear-gradient(45deg, #1877F2, #0866FF) ;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+
+.sociais button{
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(45deg, #1877F2, #0866FF);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sociais button i{
+    font-size: 15px;
+    color: #ffffff;
+}
